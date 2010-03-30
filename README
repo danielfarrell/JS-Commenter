@@ -1,1 +1,3 @@
 Wordpress plugin that disables the cookies used to remember a commenter and instead uses local browser storage for that information and javascript to fill the form.
+
+Just upload the danielfarrell_js_commenter folder into your plugins and Activate it in your control panel.
