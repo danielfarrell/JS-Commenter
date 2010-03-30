@@ -1,0 +1,1 @@
+Wordpress plugin that disables the cookies used to remember a commenter and instead uses local browser storage for that information and javascript to fill the form.
