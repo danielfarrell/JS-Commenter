@@ -17,8 +17,6 @@ $danielfarrell_js_commenter_path = WP_CONTENT_URL.'/plugins/'.plugin_basename(di
 function danielfarrell_js_commenter_head(){
 	wp_enqueue_script("jquery");
 	global $danielfarrell_js_commenter_path;
-	echo '<script type="text/javascript" src="'.$danielfarrell_js_commenter_path.'/jquery.json-min.js"></script>';
-	echo '<script type="text/javascript" src="'.$danielfarrell_js_commenter_path.'/jstorage-min.js"></script>';
 	echo '<script type="text/javascript" src="'.$danielfarrell_js_commenter_path.'/js_commenter.js"></script>';	
 }
 
